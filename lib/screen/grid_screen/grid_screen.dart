@@ -348,13 +348,13 @@ class _GridScreenState extends State<GridScreen> {
                       Container(
                         height: 15,
                         width: 15,
-                        color: Colors.orange,
+                        color: Colors.amber,
                       ),
                       const SizedBox(
                         width: 10,
                       ),
                       const Text(
-                        "Unfilled",
+                        "Filled",
                         style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ],
@@ -364,13 +364,13 @@ class _GridScreenState extends State<GridScreen> {
                       Container(
                         height: 15,
                         width: 15,
-                        color: Colors.deepOrangeAccent,
+                        color: Colors.orange,
                       ),
                       const SizedBox(
                         width: 10,
                       ),
                       const Text(
-                        "Filled",
+                        "Unfilled",
                         style: TextStyle(color: Colors.white, fontSize: 16),
                       ),
                     ],
