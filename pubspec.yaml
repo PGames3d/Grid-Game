@@ -93,8 +93,7 @@ flutter:
     - family: poppins_semibold
       fonts:
         - asset: assets/fonts/poppins_semibold.ttf
-    - family: poppins
-      fonts:
+   
   # fonts:
   #   - family: Schyler
   #     fonts:
