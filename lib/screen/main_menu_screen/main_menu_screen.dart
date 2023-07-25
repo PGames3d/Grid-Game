@@ -198,7 +198,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                     elevation: MaterialStateProperty.all(10),
                     side: MaterialStateProperty.all(const BorderSide(
                         style: BorderStyle.solid,
-                        strokeAlign: StrokeAlign.inside,
+                        strokeAlign: BorderSide.strokeAlignInside,
                         width: 3,
                         color: Colors.white)),
                     backgroundColor:
