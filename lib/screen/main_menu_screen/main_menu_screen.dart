@@ -183,7 +183,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                 repeatForever: true,
                 animatedTexts: [
                   rotateText(text: "AWESOME"),
-                  rotateText(text: "Mobigic's"),
+                  rotateText(text: "InsightToonLab"),
                   rotateText(text: 'GAMES ARE'),
                 ],
               ),
@@ -419,9 +419,9 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
             child: SizedBox(
               height: 230,
               width: Global.width(context),
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: Column(children: const [
+              child: const Padding(
+                padding: EdgeInsets.all(10.0),
+                child: Column(children: [
                   Text(
                     "ABOUT US",
                     style: TextStyle(
@@ -430,7 +430,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    "This is test project provided by Mobigic® Technologies Private Limited",
+                    "This is test project provided by BeyondSouls Private Limited under Insights Toon Lab",
                     style: TextStyle(
                       fontFamily: "poppins_medium",
                       fontSize: 18,
@@ -460,11 +460,11 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
             child: SizedBox(
               height: 220,
               width: Global.width(context),
-              child: Padding(
-                padding: const EdgeInsets.all(10.0),
+              child: const Padding(
+                padding: EdgeInsets.all(10.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: const [
+                  children: [
                     Center(
                       child: Text("HOW TO PLAY",
                           style: TextStyle(
@@ -490,7 +490,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                           fontWeight: FontWeight.bold),
                     ),
                     Text(
-                      "3. Enter aplphabets/text characters upto max count",
+                      "3. Enter alphabets/text characters up to max count",
                       style: TextStyle(
                           fontFamily: "poppins",
                           fontSize: 16,
@@ -504,7 +504,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                           fontWeight: FontWeight.bold),
                     ),
                     Text(
-                      "5. On next screen search words or aplphabets",
+                      "5. On next screen search words or alphabets",
                       style: TextStyle(
                           fontFamily: "poppins",
                           fontSize: 16,

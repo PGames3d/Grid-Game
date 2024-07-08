@@ -68,7 +68,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   child: AnimatedTextKit(
                 repeatForever: false,
                 animatedTexts: [
-                  RotateAnimatedText("Mobigic's",
+                  RotateAnimatedText("InsightToonLab's",
                       textStyle: const TextStyle(
                           color: Colors.white,
                           fontFamily: "poppins_medium",
@@ -77,15 +77,6 @@ class _SplashScreenState extends State<SplashScreen> {
                       duration: const Duration(seconds: 10)),
                 ],
               )
-
-                  //  Text(
-                  //   "Mobigic's",
-                  //   style: TextStyle(
-                  //       color: Colors.white,
-                  //       fontFamily: "poppins_medium",
-                  //       fontWeight: FontWeight.bold,
-                  //       fontSize: 20),
-                  // ),
                   )),
           Positioned(
               bottom: 0,
